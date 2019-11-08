@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="Dev 9 created 11/8/19, version 1.0" name="Joy Parker">
+  <title>DEV 9</title>
+  <link rel="stylesheet" href="css/css.css" />
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+
+  <h1>Elderflower</h1>
+  <div id="content">
+    <div id="greeting" class="message">Custom Sign Design Company</div>
+    <table>
+      <tr>
+        <td>Customize Your Sign Here: </td>
+        <td id="userSign">
+          <input id="userSignInput" type="text"></input>
+        </td>
+      </tr>
+      <tr>
+        <td>Custom Font:</td>
+        <td><input id="userFontInput" type="checkbox"> (Additional $1 per tile)</input>
+        </td>
+      </tr>
+      <tr>
+        <td>Custom Color:</td>
+        <td><input id="userColorInput" type="checkbox"> (Additional $2 per tile)</input>
+        </td>
+      </tr>
+      <tr>
+        <td>Total Tiles: </td>
+        <td id="tiles"></td>
+      </tr>
+      <tr>
+        <td>Subtotal: </td>
+        <td id="subTotal">$</td>
+      </tr>
+      <tr>
+        <td>Shipping: </td>
+        <td id="shipping">$</td>
+      </tr>
+      <tr>
+        <td>Grand Total: </td>
+        <td id="grandTotal">$</td>
+      </tr>
+    </table>
+    <a href="#" id="confirmOrder" class="action">Preview & Confirm</a>
+  </div>
+
+  <div id="previewScreen">
+    <div id="previewHeader">Order Confirmation!</div>
+    <div id="defaultMsg">Oops! Something went wrong. Please try again</div>
+
+    <a href="#" id='cancelButton'>
+      <div id="cancelPreview">CANCEL</div>
+    </a>
+
+    <a href="#" id='confirmButton'>
+      <div id="confirmPreview">CONFIRM</a>
+    </div>
+    <script src="js/script.js"></script>
+	
+
+</body>
+
+</html>

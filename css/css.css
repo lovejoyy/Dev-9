@@ -1,0 +1,226 @@
+html {
+  height: 200%;
+}
+
+
+body {
+  background-color: #00d680;
+  background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: helvetica, sans-serif;
+  font-size: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  min-height: 100%;
+}
+
+#content {
+  background-color: #00b0e6;
+  background-image: url("https://www.transparenttextures.com/patterns/clean-gray-paper.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  border: 15px;
+  color: white;
+  display: inline-block;
+  padding: 50px 80px;
+  margin: 20px auto 50px auto;
+  max-width: 580px;
+  min-height: 4em;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 25px;
+}
+
+h1,
+h2 {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+h1 {
+  width: 286px;
+  height: 112px;
+  margin: 0px auto 0px auto;
+  padding-top: 20px;
+  background: url("http://javascriptbook.com/code/c02/images/elderflower-logo.png")
+    no-repeat bottom center;
+}
+
+h2 {
+  width: 286px;
+  height: 18px;
+  margin: 0px auto 20px auto;
+  color: white;
+  background: url("http://javascriptbook.com/code/c02/images/custom-sign.png")
+    no-repeat center center;
+}
+#title {
+  font-size: 120%;
+  font-weight: bold;
+}
+#cost,
+.action {
+  background-color: #f84c53;
+  color: #fff;
+  width: auto;
+  height: 1 em;
+  padding: 0.5em 0.75em;
+  float: right;
+}
+#cost {
+  position: relative;
+  top: 1em;
+  right: 2em;
+}
+.action {
+  position: relative;
+  top: 1.3em;
+  right: -2.3em;
+}
+#note {
+  background-color: #31373f;
+  border-radius: 0.5em;
+  color: #e3bb5a;
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  /*   text-transform: uppercase; */
+  display: inline-block;
+}
+a {
+  color: #e3bb5a;
+  text-decoration: none;
+}
+
+.true,
+.false {
+  background: url("http://javascriptbook.com/code/c02/images/tick-cross.png");
+  display: inline-block;
+  float: right;
+  height: 25px;
+  width: 25px;
+}
+.false {
+  background-position: 0px -25px;
+}
+
+.message {
+  font-weight: bold;
+  line-height: 1.5em;
+  height: 2em;
+  display: block;
+  clear: left;
+  min-width: 10em;
+}
+.message span {
+  font-weight: normal;
+}
+
+.number {
+  text-align: left;
+}
+
+table {
+  margin: 20px 100px 0px 100px;
+}
+
+tr td:first-child {
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+body:before,
+body:after {
+  content: "";
+  position: fixed;
+  background: #fff;
+  left: 0;
+  right: 0;
+  height: 20px;
+}
+
+body:before {
+  top: 0;
+}
+
+body:after {
+  bottom: 0;
+}
+
+body {
+  border-left: 20px solid #fff;
+  border-right: 20px solid #fff;
+}
+
+#previewScreen {
+  width: 400px;
+  height: 250px;
+  background-color: pink;
+  color: white;
+  padding: 25px 20px 10px 85px;
+  top: 35%;
+  left: 37%;
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  display: inline-block;
+  padding: 30px 50px;
+  max-width: 580px;
+  min-height: 2em;
+  text-align: center;
+  display: none;
+}
+
+#confirmButton,
+#cancelButton {
+  position: absolute;
+  display: inline-block;
+  left: 70%;
+  bottom: 15px;
+  width: 100px;
+  height: 30px;
+  background-color: limegreen;
+  vertical-align: middle;
+  line-height: 30px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+}
+
+#cancelButton {
+  left: 10%;
+  background-color: red;
+  border-radius: 10px;
+}
+
+#previewHeader {
+  font-size: 35px;
+  color: black;
+}
+
+#defaultMsg {
+  margin-top: 60px;
+  font-size: 20px;
+  background-color: white;
+  height: 60px;
+  width: 400px;
+  color: black;
+  line-height: 60px;
+  border-radius: 15px;
+}
+
+#greeting {
+  font-size: 20px;
+}
+
+#confirmOrder {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3), 0 17px 50px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  color: black;
+}
+
+.deluxeFont {
+  color: orange;
+  text-decoration: underline;
+}
